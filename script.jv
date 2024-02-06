@@ -1,4 +1,4 @@
-"use strict";
+1"use strict";
 
 const titleElement = document.querySelector(".title");
 const buttonsContainer = document.querySelector(".buttons");
@@ -44,10 +44,10 @@ function generateMessage(noCount) {
   const messages = [
     "No",
     "Are you sure?",
-    "Pookie please",
+    "Diane please?",
     "Don't do this to me :(",
     "You're breaking my heart",
-    "I'm gonna cry...",
+    "I'm gonna cry... charr",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
